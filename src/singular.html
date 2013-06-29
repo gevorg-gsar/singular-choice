@@ -22,9 +22,8 @@
 
 {block:IndexPage}
 <meta property="og:title" content="{PlaintextTitle}" />
-<meta property="og:url" content="http://spy.tumblr.com" />
+<meta property="og:url" content="http://singular.io" />
 <meta property="og:image" content="{PortraitURL-48}" />
-<meta property="og:description" content="{MetaDescription}" />
 {/block:IndexPage}
 {block:PermalinkPage}
 {block:Posts}
@@ -33,9 +32,8 @@
 <meta property="og:image" content="{PortraitURL-48}" />
 {/block:Text}
 {block:Quote}
-<meta property="og:title" content="singular choice: quote by {block:Source}{Source}{/block:Source}" />
+<meta property="og:title" content="Quote by {block:Source}{Source}{/block:Source}" />
 <meta property="og:image" content="http://plexonic.com/assets/singular/quote.png" />
-<meta property="og:site_name" content="singular choice" />
 {/block:Quote}
 {block:Link}
 <meta property="og:title" content="Link: {PlaintextName}" />
@@ -54,17 +52,20 @@
 <meta property="og:image" content="{PortraitURL-48}" />
 {/block:Audio}
 {block:Video}
-<meta property="og:title" content="singular choice: {block:Caption}{PlaintextCaption}{/block:Caption}" />
+<meta property="og:title" content="{block:Caption}{PlaintextCaption}{/block:Caption}" />
 <meta property="og:image" content="http://plexonic.com/assets/singular/getvideothumb.php?url={URLEncodedPermalink}" />
-<meta property="og:site_name" content="singular choice" />
 {/block:Video}
 {/block:Posts}
 <meta property="og:url" content="{Permalink}" />
 {/block:PermalinkPage}
+
+<!-- common OG-s -->
+<meta property="og:description" content="{MetaDescription}" />
 <meta property="og:site_name" content="singular choice" />
 <meta property="fb:app_id" content="201924716518634" />
 <meta property="fb:admins" content="639005336" />
 <meta property="og:type" content="article" />
+<!--  ---------- -->
 
 <link rel="shortcut icon" href="{Favicon}" />
 <link rel="apple-touch-icon" href="{PortraitURL-128}"/>
@@ -323,7 +324,7 @@ color:{color:Links};
     padding-right: 12px;
     font-size: 12px;
     color: #666;
-    background: url(http://www.plexonic.com/assets/singular/top-arrow.gif) no-repeat right center;
+    background: url(http://plexonic.com/assets/singular/top-arrow.gif) no-repeat right center;
 }
 </style>
 
@@ -398,7 +399,7 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{block:Title}{Title}{/block:Title}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
             </div>
         </div>
     </div>
@@ -432,7 +433,7 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{Quote}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
             </div>
         </div>
         {block:IndexPage}
@@ -467,7 +468,7 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{block:Title}{Title}{/block:Title}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
             </div>
         </div>
     </div>
@@ -504,7 +505,7 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{block:Caption}{PlaintextCaption}{/block:Caption}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
             </div>
         </div>
     </div>
@@ -541,7 +542,7 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{block:Title}{Title}{/block:Title}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
             </div>
         </div>
     </div>
@@ -578,7 +579,7 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{block:Title}{Title}{/block:Title}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
             </div>
         </div>
     </div>
@@ -616,7 +617,8 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{block:Title}{Title}{/block:Title}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+
             </div>
         </div>
     </div>
@@ -665,7 +667,7 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{block:Title}{Title}{/block:Title}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
             </div>
         </div>
     </div>
@@ -707,7 +709,7 @@ color:{color:Links};
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{Permalink}" data-text="{block:Title}{Title}{/block:Title}" data-via="spytwit" data-lang="en">Tweet</a>
             </div>
             <div class="socialIcon">
-                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=201924716518634" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
             </div>
         </div>
     </div>
@@ -774,7 +776,7 @@ color:{color:Links};
 </script>
 <script type="text/javascript">
     $(function() {
-        if ( document.location.href == "http://spy.tumblr.com/ask" ) {
+        if ( document.location.href == "http://singular.io/ask" ) {
             $(".socialIcons, .fbCommentsBox").remove();
         }
 
